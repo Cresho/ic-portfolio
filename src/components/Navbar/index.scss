@@ -29,3 +29,27 @@
         height: auto;
     }
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+
+    a {
+        font-family: 'Montserrat', sans-serif;
+        color: #3a3a3a;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 40px;
+        font-weight: 500;
+        position: relative;
+
+        &.active {
+            font-weight: 700;
+        }
+
+        &:hover {
+            border-bottom: 2px solid #3a3a3a;
+        }
+    }
+}
