@@ -1,6 +1,6 @@
-import './index.scss';
+import './index.scss'; 
 import { Link, NavLink } from 'react-router-dom';
-import LogoSub from '../../assets/images/logo-i-sub.png';
+import LogoSub from '../../assets/images/logo.png';
 
 
 const Navbar = () => (
