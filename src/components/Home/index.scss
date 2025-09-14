@@ -1,12 +1,17 @@
 .home-page{
-    margin-top: 300px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
     .text-zone{
-        position: absolute;
-        left: 10%;
-        top: 5%;
-        transform: translateY(-50%);
+        position: relative;
         width: 80%;
         max-width: 90%;
+        margin-bottom: 80px;
+        text-align: center;
     }
 
     h1{
@@ -17,4 +22,82 @@
         font-weight: 300;
         text-align: center;
     }
+
+    .image-zone {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+        width: 100%;
+
+        a {
+            text-decoration: none;
+
+            img {
+                width: 100%;
+                max-width: 700px;
+                height: auto;
+                border-radius: 8px;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+    }
+
+    .bottom-zone {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #b3b3b3;
+        margin-top: 80px;
+        text-align: center;
+        h1 {
+            width: 50%;
+            font-size: 4rem;
+            margin: 10px 0;
+            text-align: center;
+            a {
+                color: #3a3a3a;
+                text-decoration: none;
+                &:hover {
+                   text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    @media(max-width: 768px){
+        .text-zone{
+            margin-top: 70px;
+            width: 100%;
+        }
+
+        h1{
+            font-size: 2.5rem;
+        }
+
+        .image-zone {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+
+        .bottom-zone {
+            flex-direction: column;
+            height: auto;
+            padding: 20px 0;
+            h1 {
+                width: 90%;
+                font-size: 2rem;
+                margin: 5px 0;
+            }
+        }
+    }
 }
+

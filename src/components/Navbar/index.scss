@@ -53,3 +53,34 @@ nav {
         }
     }
 }
+
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        min-width: unset;
+    }
+
+    .logo {
+        img {
+            max-width: 150px;
+            height: auto;
+        }
+    }
+
+    nav {
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+
+        a {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+    }
+}
