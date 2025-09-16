@@ -1,15 +1,20 @@
 import './index.scss';
-import placeholderImage from '../../assets/images/placeholder.jpg';
+import thumbnail1 from '../../assets/images/thumbnail1.jpg';
+import thumbnail2 from '../../assets/images/thumbnail2.jpg';
+import thumbnail3 from '../../assets/images/thumbnail3.jpg';
+import thumbnail4 from '../../assets/images/thumbnail4.jpg';
+import thumbnail5 from '../../assets/images/thumbnail5.jpg';
+import thumbnail6 from '../../assets/images/thumbnail6.jpg';
 
 const Home = () => {
 
     const images = [
-        { src: placeholderImage, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
-        { src: placeholderImage, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
-        { src: placeholderImage, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
-        { src: placeholderImage, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
-        { src: placeholderImage, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
-        { src: placeholderImage, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
+        { src: thumbnail1, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
+        { src: thumbnail2, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
+        { src: thumbnail3, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
+        { src: thumbnail4, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
+        { src: thumbnail5, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
+        { src: thumbnail6, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
     ];
 
 

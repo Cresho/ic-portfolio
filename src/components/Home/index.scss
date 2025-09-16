@@ -29,6 +29,8 @@
         gap: 20px;
         justify-items: center;
         width: 100%;
+        max-width: 2000px;
+        margin: 0 auto;
 
         a {
             text-decoration: none;
@@ -45,6 +47,11 @@
                 }
             }
         }
+
+        @media (max-width: 1200px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
     }
 
