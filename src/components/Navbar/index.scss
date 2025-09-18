@@ -2,7 +2,7 @@
     background: #e3e2dd;
     width: 100%;
     height: 200px;
-    position: absolute;
+    position: relative;
     top: 0;
     z-index: 3;
 
@@ -43,6 +43,7 @@ nav {
         font-size: 40px;
         font-weight: 500;
         position: relative;
+        border-bottom: 2px solid transparent;
 
         &.active {
             font-weight: 700;

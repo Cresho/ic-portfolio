@@ -6,10 +6,12 @@ import thumbnail4 from '../../assets/images/thumbnail4.jpg';
 import thumbnail5 from '../../assets/images/thumbnail5.jpg';
 import thumbnail6 from '../../assets/images/thumbnail6.jpg';
 
+import { Link, NavLink } from 'react-router-dom';
+
 const Home = () => {
 
     const images = [
-        { src: thumbnail1, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
+        { src: thumbnail1, link: '/about'},
         { src: thumbnail2, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
         { src: thumbnail3, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
         { src: thumbnail4, link: 'https://www.youtube.com/watch?v=5AtvXdmPe3A&list=RD5AtvXdmPe3A&start_radio=1&ab_channel=JohnnyCash-Topic'},
@@ -27,21 +29,11 @@ const Home = () => {
             </div>
             <div className="image-zone">
                 {images.map((image, index) => (
-                    <a key={index} href={image.link} target="_blank" rel="noopener noreferrer">
+                    <NavLink key={index} to={image.link}>
                         <img src={image.src} alt={`Image ${index + 1}`} />
-                    </a>
+                    </NavLink>
                 ))}
             </div>
-
-            <div className="bottom-zone">
-                <h1>Ivana Čalić</h1>
-                <h1>ivana.calic01@gmail.com</h1>
-                <h1><a href="https://www.linkedin.com/in/ivana-calic/">LinkedIn</a></h1>
-            </div>
-
-            <footer>
-                <p>© 2024 Ivana Čalić. All rights reserved.</p>
-            </footer>
         </div>
     )
 }
