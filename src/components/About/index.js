@@ -10,22 +10,25 @@ const About = () => {
                 <img src={profile} alt="Profile" className="profile-photo" />
             </div>
             <div className="text-section">
-                <h1>Hello, I'm Ivana Čalić, a recent graduate of Faculty of Graphic Arts Zagreb with a degree
-                    in Graphic Design currently living in Osijek, Croatia.
+                <h1>
+                    Ja sam Ivana Čalić, grafička dizajnerica iz Osijeka sa diplomom Grafičkog fakulteta u Zagrebu i velikom strašću za dizajniranjem.
+                    <br />
+                    <br />
+                    Rad na različitim projektima tijekom studija, kao i nakon diplome, omogućio mi
+                    je razvoj vještina u brendiranju, vizualnim identitetima, ilustraciji i dizajnu.
+                    Kroz studij sam stekla snažnu podlogu u tipografiji, pripremi za tisak,
+                    ambalažnom dizajnu i grafičkoj tehnologiji, a sve to primijenila sam u praksi na projektima za tvrtku Forge47.
                 </h1>
             </div>
         </div>
         <div className="detailed-info">
             <h1>
-                While working at "internship", I was able to learn "some skills". I've studdied "some things"
-                and was able to apply these skills to projects for "some clients".
+                Kad ne dizajniram, najčešće crtam, slušam glazbu ili vozim role, 
+                a inspiraciju pronalazim u svakodnevnim sitnicama i novim kreativnim hobijima.
                 <br />
                 <br />
-                When I'm not designing, I like to "some hobbies".
-                <br />
-                <br />
-                I'm currently looking for my first full time design role and would appreciate learning about
-                any available oportunities.
+                Trenutno sam u potrazi za svojom prvom stalnom dizajnerskom pozicijom i otvorena sam 
+                za prilike koje će mi omogućiti daljnji rast i suradnju s kreativnim timovima.
             </h1>
         </div>
         <div className="button-section">

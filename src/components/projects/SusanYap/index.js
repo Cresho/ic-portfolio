@@ -40,14 +40,14 @@ const SusanYap = () => {
       <h1><a href="https://susanyapinsuranceagency.com/" target="_blank">Susan Yap Insurance Agency</a></h1>
       <img className="cover-photo" src={CoverPhoto} alt='Susan Yap Insurance Agency Cover' />
       <div className="project-description">
-        <p> Overview of the project. If project is fictional, use “concept for” in the
-            overview. State the client name, industry, audience, and initial challenge/goal
-            of the project based on the brief. Make each project a story. 
+        <p> Kod dizajniranja Susan Yap brenda, fokusirala sam se na stvaranje čistog i profesionalnog vizualnog identiteta. 
+          Odabrala sam plavu boju kako bih naglasila pouzdanost, stabilnost i sigurnost, jer to predstavlja vrijednosti koje 
+          su ključne u sektoru osiguranja.
         </p>
         <p>
-            Do not center-align this text. Do not span the full page width. Adjust the 
-            column width and text size to get 50-75 characters per line, then center all 
-            text columns on the page.
+            Logotip je jednostavan i moderan, izrađen korištenjem sans serifne tipografije radi jasnoće i čitkosti. Minimalistički 
+            pristup osigurava da se dizajn lako prilagođava digitalnim i tiskanim formatima, zadržavajući pritom ozbiljan i profinjen izgled. 
+            Cjelokupni vizual prenosi osjećaj sigurnosti bez nepotrebne kompleksnosti, čineći brend istodobno pristupačnim i vjerodostojnim.
         </p>
       </div>
       <div className="project-logos">
@@ -68,8 +68,9 @@ const SusanYap = () => {
       </div>
       <div className="video-description">
         <p>
-          Text relating to the next image or group of images. Mention any additional 
-          skills, tools, or requirements for each application shown.
+          U svijetu osiguranja povjerenje je ključ, a društvene mreže su mjesto gdje ono počinje. Kvalitetni vizuali ne samo da privlače pažnju, 
+          već i jasno komuniciraju pouzdanost i sigurnost, vrijednosti koje klijenti očekuju od osiguravajuće agencije. Pravilno osmišljeni 
+          sadržaji jačaju vezu s publikom pretvarajući pratitelje u stvarne klijente.
         </p>
       </div>
       <div className='video-container'>
@@ -79,14 +80,14 @@ const SusanYap = () => {
         </video>
       </div>
       <div className="project-description">
-        <p> Overview of the project. If project is fictional, use “concept for” in the
-            overview. State the client name, industry, audience, and initial challenge/goal
-            of the project based on the brief. Make each project a story. 
+        <p> 
+          Animacija logotipa ovog brenda čini ga modernim i dinamičnim, istovremeno naglašavajući pouzdanost i profesionalnost koje plava boja i 
+          jednostavna sans serif tipografija prenose. Pokret logotipa privlači pažnju na digitalnim platformama i društvenim mrežama, pomažući brendu 
+          da ostane u pamćenju klijenata.
         </p>
         <p>
-            Do not center-align this text. Do not span the full page width. Adjust the 
-            column width and text size to get 50-75 characters per line, then center all 
-            text columns on the page.
+            Korištenje mockupa omogućuje realističan prikaz logotipa u različitim situacijama, uredskom materijalu, vizitkama, društvenim mrežama 
+            i promotivnim materijalima. Time se pokazuje kako brend funkcionira u stvarnom svijetu i dodatno gradi povjerenje i profesionalni dojam kod publike.
         </p>
       </div>
       <div className="mockup-container">

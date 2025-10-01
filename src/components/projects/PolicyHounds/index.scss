@@ -1,0 +1,39 @@
+.policy-hounds-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 3%;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 768px){
+      flex-direction: column;
+      max-width: 80%;
+
+      img{
+        margin-top: 10px;
+      }
+    }
+}
+
+.policy-hounds-video{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+
+    video, iframe{
+      width: 70%;
+      height: auto;
+    }
+}
+    

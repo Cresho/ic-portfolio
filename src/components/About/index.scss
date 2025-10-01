@@ -13,7 +13,7 @@
         font-weight: 300;
         margin-bottom: 20px;
         color: #3a3a3a;
-        text-align: justify;
+        text-align: left;
     }
 }
 
@@ -33,6 +33,7 @@
         .profile-photo{
             object-fit: cover;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-height: 700px;
         }
     }
 
@@ -82,6 +83,13 @@
 
     p{
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .photo-text-section{
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
