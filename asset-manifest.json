@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ic-portfolio/static/css/main.9a3d11a7.css",
-    "main.js": "/ic-portfolio/static/js/main.23f7fad0.js",
+    "main.css": "/ic-portfolio/static/css/main.1faf215f.css",
+    "main.js": "/ic-portfolio/static/js/main.0d338601.js",
     "static/js/453.941ded5f.chunk.js": "/ic-portfolio/static/js/453.941ded5f.chunk.js",
     "static/media/Video.mp4": "/ic-portfolio/static/media/Video.42252c03c13077b2a54c.mp4",
     "static/media/6.png": "/ic-portfolio/static/media/6.95b7c6b49233a9904e8d.png",
@@ -20,7 +20,7 @@
     "static/media/Cover.png": "/ic-portfolio/static/media/Cover.a7a61956d402ee0d46bd.png",
     "static/media/SusanYapMockup2.png": "/ic-portfolio/static/media/SusanYapMockup2.9e549b384ef4e400156f.png",
     "static/media/SusanYapCoverPhoto.png": "/ic-portfolio/static/media/SusanYapCoverPhoto.767d11fe478cfc221071.png",
-    "static/media/resume.pdf": "/ic-portfolio/static/media/resume.8b08393e2aef34e161c6.pdf",
+    "static/media/resume.pdf": "/ic-portfolio/static/media/resume.7ad786e1a11a7254dfbe.pdf",
     "static/media/Phone3.png": "/ic-portfolio/static/media/Phone3.7d88ce88029abc3850c8.png",
     "static/media/Phone1.png": "/ic-portfolio/static/media/Phone1.b40a351e0c4afc6c3e07.png",
     "static/media/Video3.mp4": "/ic-portfolio/static/media/Video3.65905f11d7635462628d.mp4",
@@ -54,12 +54,12 @@
     "static/media/CharlieSecondary.png": "/ic-portfolio/static/media/CharlieSecondary.4c7c1a573a8fc402a087.png",
     "static/media/PolicyHoundsSecondary.png": "/ic-portfolio/static/media/PolicyHoundsSecondary.4596be8aa8279f37a8a3.png",
     "index.html": "/ic-portfolio/index.html",
-    "main.9a3d11a7.css.map": "/ic-portfolio/static/css/main.9a3d11a7.css.map",
-    "main.23f7fad0.js.map": "/ic-portfolio/static/js/main.23f7fad0.js.map",
+    "main.1faf215f.css.map": "/ic-portfolio/static/css/main.1faf215f.css.map",
+    "main.0d338601.js.map": "/ic-portfolio/static/js/main.0d338601.js.map",
     "453.941ded5f.chunk.js.map": "/ic-portfolio/static/js/453.941ded5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a3d11a7.css",
-    "static/js/main.23f7fad0.js"
+    "static/css/main.1faf215f.css",
+    "static/js/main.0d338601.js"
   ]
 }
