@@ -20,6 +20,10 @@
       margin-top: 10px;
     }
   }
+
+  @media (max-width: 1500px){
+    flex-direction: column;
+  }
 }
 
 .charlie-video{

@@ -20,6 +20,10 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         text-align: center;
+
+        @media (max-width: 1920px){
+            font-size: 3rem;
+        }
     }
 
     .image-zone {

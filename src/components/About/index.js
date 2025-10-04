@@ -33,7 +33,7 @@ const About = () => {
         </div>
         <div className="button-section">
             <a href={resume} download="Ivana_Calic_Resume.pdf" className="resume-button">
-                Resume
+                Životopis
             </a>
             <button className="linkedin-button" onClick={() => window.open('https://www.linkedin.com/in/ivana-%C4%8Dali%C4%87-0847b0282/', '_blank')}>
                 LinkedIn
